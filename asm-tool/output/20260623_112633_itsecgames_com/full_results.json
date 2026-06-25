@@ -1,0 +1,72 @@
+{
+  "subdomains": [
+    "itsecgames.com",
+    "www.itsecgames.com"
+  ],
+  "live_hosts": [
+    {
+      "url": "https://www.itsecgames.com",
+      "status": 301,
+      "title": "301 Moved Permanently",
+      "tech": [
+        "Apache HTTP Server"
+      ]
+    },
+    {
+      "url": "https://itsecgames.com",
+      "status": 200,
+      "title": "MME | Security Audits & Training",
+      "tech": [
+        "AddThis",
+        "Apache HTTP Server",
+        "Drupal:7",
+        "PHP",
+        "Supersized",
+        "jQuery"
+      ]
+    }
+  ],
+  "open_ports": [
+    {
+      "host": "# Nmap 7.99 scan initiated Tue Jun 23 11:27:04 2026 as",
+      "port": "nmap -p 80,443,8080,8443,22,21,25,3306,3389,6379,9200 --open -oN /Users/nikunjgupta/Downloads/PROJECTS/asm-tool/output/20260623_112633_itsecgames_com/open_ports.txt itsecgames.com www.itsecgames.com"
+    },
+    {
+      "host": "rDNS record for 31.3.96.40",
+      "port": "web.mmebvba.com"
+    },
+    {
+      "host": "Not shown",
+      "port": "8 filtered tcp ports (no-response)"
+    },
+    {
+      "host": "rDNS record for 31.3.96.40",
+      "port": "web.mmebvba.com"
+    },
+    {
+      "host": "Not shown",
+      "port": "8 filtered tcp ports (no-response)"
+    },
+    {
+      "host": "# Nmap done at Tue Jun 23 11:27",
+      "port": "08 2026 -- 2 IP addresses (2 hosts up) scanned in 4.17 seconds"
+    }
+  ],
+  "urls": [],
+  "vulnerabilities": [],
+  "takeover_candidates": [],
+  "technologies": {
+    "https://www.itsecgames.com": [
+      "Apache HTTP Server"
+    ],
+    "https://itsecgames.com": [
+      "AddThis",
+      "Apache HTTP Server",
+      "Drupal:7",
+      "PHP",
+      "Supersized",
+      "jQuery"
+    ]
+  },
+  "nmap_output": ""
+}

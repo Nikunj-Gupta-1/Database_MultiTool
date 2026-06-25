@@ -1,0 +1,22 @@
+# Nmap 7.99 scan initiated Tue Jun 23 11:17:58 2026 as: nmap -p 80,443,8080,8443,22,21,25,3306,3389,6379,9200 --open -oN /Users/nikunjgupta/Downloads/PROJECTS/asm-tool/output/20260623_111727_itsecgames_com/open_ports.txt itsecgames.com www.itsecgames.com
+Nmap scan report for itsecgames.com (31.3.96.40)
+Host is up (0.13s latency).
+rDNS record for 31.3.96.40: web.mmebvba.com
+Not shown: 8 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.itsecgames.com (31.3.96.40)
+Host is up (0.13s latency).
+rDNS record for 31.3.96.40: web.mmebvba.com
+Not shown: 8 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+# Nmap done at Tue Jun 23 11:18:03 2026 -- 2 IP addresses (2 hosts up) scanned in 5.04 seconds

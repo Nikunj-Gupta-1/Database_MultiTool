@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Database
+pgdata/
+
+# Logs
+*.log
+sync.log
+
+# OS-specific
+.DS_Store
+.DS_Store?
+Thumbs.db
